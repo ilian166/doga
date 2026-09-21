@@ -7,7 +7,33 @@
     <title>doga</title>
   </head>
   <body>
-    <div id="app"></div>
+    <table>
+  <thead>
+    <tr><th>day</th><th>temperature</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Monday</td><td class="cold">5</td></tr>
+    <tr><td>Tuesday</td><td class="cold">7</td></tr>
+    <tr><td>Wednesday</td><td>11</td></tr>
+    <tr><td>Friday</td><td>15</td></tr>
+    <tr><td>Saturday</td><td>23</td></tr>
+    <tr><td>Sunday</td><td>27</td></tr>
+    <tr><td>Monday</td><td class="warm">31</td></tr>
+    <tr><td>Wednesday</td><td class="warm">32</td></tr>
+    <tr><td>Thursday</td><td class="warm">31</td></tr>
+    <tr><td>Friday</td><td>11</td></tr>
+    <tr><td>Saturday</td><td class="cold">9</td></tr>
+    <tr><td>Sunday</td><td class="cold">-2</td></tr>
+  </tbody>
+</table>
+<br>
+  <form id="form">
+    <input id="day" type="text" name="day" placeholder="Day" />
+    <input type="number" name="temperature" placeholder="Temperature" />
+    <button type="submit">Add</button>
+
+  </form>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
